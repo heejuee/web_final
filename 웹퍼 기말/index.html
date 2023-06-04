@@ -1,0 +1,327 @@
+       <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	</title>
+	<style type="text/css">
+		html{padding: 0px; background-color:black; margin: auto;}
+		@font-face{font-family: 'Pretendard-Regular';
+    		src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');}
+
+		body{color: black; margin: auto; width: 1780px;}
+		h1{color: white; font-size:48px; font-weight:900; line-height: 120%;}
+		h2{color: white; font-size:30px; font-weight:600; line-height: 135%;}
+		h3{color: white; font-size:24px; font-weight:450; line-height:160%;}
+		h4{color: white; font-size:20px; font-weight:450;  line-height: 150%;}
+		h5{color: white; font-size:17px; font-weight:400; line-height: 130%;}
+		p{color: white; font-size:20px;  font-weight:400; line-height: 160%;}
+
+		a {display: block; color:#ffffff; line-height: 0px; padding:20px 20px; text-decoration:none;}
+		a:hover{transition: all 0.3s;
+							background-color:none;
+							color:blue; text-decoration: none;}
+		li{list-style-type: none;}
+
+
+
+
+		.wrapper{position: relative; display: flex; width:1580px; margin:auto;}
+		.background_title{
+	      background-image: url('img/background_title.png');
+	      background-size: cover; 
+	      position: relative; width: auto; height: 1000px;}
+	    .img1_background{
+	    	background-image: url('img/img1_background.png');
+	      background-size: cover; 
+	      position: relative; width: 1780px; height: auto;}
+
+	    .background_2{background-image: url('img/background_2.png');
+	    	background-size: cover; position: relative; width: auto; height:1000px; margin-top: 250px;}
+	    .menu{position:sticky; top: 0; display:flex; z-index:1; width: 1780px; height:auto; margin-top: 20px;}
+
+	    .no-line-break {white-space: nowrap;}
+
+	    .pattern_grapic{background-image: url('img/pattern_grapic.png'); background-size: cover; position: relative; width: 1575px; height:469px;}
+	 
+	    
+		.textbox_grapic{background-image:url('img/textbox_grapic.png');
+			background-size:cover; position: relative; width: 25%; height:auto;}
+
+		.process_grapic{background-image:url('img/textbox_grapic.png');
+			background-size:cover; position: relative; width: 100%; height:auto;}
+
+		.gradient_grapic{background-image:url('img/gradient_grapic.png');
+			background-size: cover; position: relative; width:100%; height:auto; margin-top: 380px;}
+
+		.textbox_grapic {opacity:0; position: relative;}
+		
+		.background_example1{background-image:url('img/background_example1.png');background-size: cover; position: relative; width: 1573px; height: 703px;}
+
+		.background_example2{background-image:url('img/background_example2.png'); background-size: cover; position: relative; width: 1573px; height: 703px;}
+
+		.background_lastgrapic{background-image:url('img/background_lastgrapic.png'); background-size: cover; position: relative; width: 1780px; height: 1091px;}
+
+		.right {opacity: 0; animation: slideInFromRight 1s forwards; animation-delay: 0.5s;}
+		@keyframes slideInFromRight{from{transform:translateX(100%); opacity:0} to{transform:translateX(0); opacity:1}}
+
+		
+		.left{opacity: 0; animation: slideInFromleft 1s forwards; animation-delay: 0.5s;}
+		@keyframes slideInFromleft{from{transform:translateX(-100%); opacity:0} to{transform:translateX(0); opacity:1}}
+
+		.blinking-text {animation: blink 1s infinite; width: 200px; margin-right: 0px;}
+		@keyframes blink {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
+
+		
+/*.rotating-element {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 5s infinite linear;
+  transform-origin: center center;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+	</style>
+</head>
+<body>
+	 <div class="background_title">
+  	</div>
+
+  	<div class="img1_background">
+  		<div class="wrapper" style="display: flex; justify-content: center; align-items: center;">
+  			<img src="img/img1_text.png" style="margin:auto; margin-top: 150px;" >
+  		</div>
+  	</div>
+  		<div style="text-align: center; margin: auto; margin-top: 300px;">
+  			<h3> 단 1분 간 만들어지는 데이터 <br>어떻게 이 방대한 데이터들을 활용하는걸까?</h3>
+  		</div>
+
+		<nav class="menu" style="background-color: black; margin-top:500px; ">
+			<li><a href="#a">Definition</a></li>
+			<li><a href="#b">Process</a></li>
+			<li><a href="#c">Type / Utilize</a></li>
+			<li><a href="#d"></a></li>
+		</nav>
+
+
+
+<section style="margin-top:0px;">
+		<div class="background_2" style="margin-top:0px;" >
+  	<div class="wrapper">
+  		<h1 style="font-size: 120px; font-weight:900; margin-top:300px; line-height:100%;">All about<br> Data mining</h1></div>
+  	</div>
+</section>
+
+<section class="wrapper" style="display: block; margin-bottom: 280px;">
+	 <div><h3>Content</h3></div>
+	 <div class="wrapper">
+	 	<img src="img/content_ grapic.png" style="width: 100%;"> </div>
+</section>
+
+
+<section id="a" class="wrapper" style="display: block;">
+
+	<div ><h4> 데이터 마이닝의 정의 </h4></div>
+	<div>
+		<h1>대량의 데이터 세트에서 패턴과<br> 
+				가치 있는 정보를 발견하는 것</h1>
+		<h3>데이터 마이닝 프로세스는 데이터 수집부터 시각화까지<br>
+			여러 단계에 걸쳐 대량의 데이터로부터 가치 있는 정보를 추출하는 것</h3>
+	</div>
+	<div class="pattern_grapic" style= "margin:auto; margin-top: 200px;width: 1575px; height:469px; display: block;">
+		<p class="blinking-text" style="color:#73f8b8; transform: translateX(720px) translateY(220px);a">패턴을 탐색하여</p>
+	</div>
+
+</section>
+
+<section>
+	<div>
+		<img src="img/gradient_grapic.png" style="width:1780px; margin-top:380px;"> 
+	</div>
+	
+
+</section>
+
+<section id="b" class="wrapper" style="display: block;">
+	<div>
+		<h4>데이터 마이닝의 과정</h4>
+	</div>
+
+	<div> <img src="img/process_grapic.png" style="width: 1480px; height: auto; justify-content: center; margin-top:50px; transform: translateX(50px);"></div>
+
+</section>
+
+----/process/----------1
+<section class="wrapper" style="margin-top:400px;">
+
+	<div class="wow right">
+		<p class="no-line-break" style="transform: translateX(900px) translateY(60px);">
+			1&nbsp;&nbsp;&nbsp;추출과정<br><br>
+			
+			방대한 데이터 중 해결할 비즈니스 문제에 대한 정의와 결과에<br>  대한 목표를설정하여 목표 데이터를 추출한다.
+			데이터 마이닝에서는<br> 수치로 된 정형적인 데이터 뿐만 아니라 인간의 행동 패턴, 감정, 습관 등<br> 비정형 데이터도 함께 분석된다.
+	</div>
+
+	<div>
+		<img src="img/process1_grapic.png" style="position: relative; width: 150%; height: auto;transform: translateX(-400px)translateY(90px);">
+	</div>
+
+	<div class="wow right">
+		<img src="img/textbox_grapic.png" style="width:auto; height:420px;">
+	</div>
+
+</section>
+---------------2
+<section class="wrapper" style="margin-top:300px;">
+
+	<div class="wow left">
+		<p style="transform: translateX(80px) translateY(175px);">
+			2&nbsp;&nbsp;&nbsp;전처리 과정<br><br>
+
+			원자료(raw data)를 데이터 분석 목적과 방법에 맞는 형태로<br> 처리하기 위하여 
+			불필요한 정보를 분리 제거하고, 가공하기 위한<br> 예비적인 조작과정인 전처리 과정
+			선정된 데이터에서 부정확한 값이나<br> 중복된 레코드를 삭제하거나 정리, 조정하는 등 
+			데이터의 질을 향상시킨다.
+
+		</p>
+
+			<img src="img/textbox_grapic.png" style="width:auto; height:420px; transform: translateY(-120px);">
+	</div>
+
+	<div>
+		<img src="img/process2_grapic.png" style="position: relative; width: 50%; height: auto;transform: translateX(300px)translateY(180px);">
+	</div>
+
+
+</section>
+
+
+---------------3
+<section class="wrapper" style="margin-top:300px;">
+
+	<div class="wow right">
+		<p class="no-line-break" style="transform: translateX(900px) translateY(62px);">
+			3&nbsp;&nbsp;&nbsp;변환과정<br><br>
+			
+			데이터 변환과정은 데이터마이닝 기법에 적합한 형태로 데이터를<br> 변환하는 것으로
+			데이터웨어하우스가 구축된 경우 구축과정에서<br> 이미 실행되었거나
+			추가작업이 필요한 경우,<br> 데이터웨어하우스 내에서 작업하는것이 효과적이다.</p>
+	</div>
+
+	<div>
+		<img src="img/process3_grapic.png" style="position: relative; width: 150%; height: auto;transform: translateX(-400px)translateY(90px);">
+	</div>
+
+	<div class="wow right">
+		<img src="img/textbox_grapic.png" style="width:auto; height:420px;">
+	</div>
+
+</section>
+---------------4
+<section class="wrapper" style="margin-top:300px;">
+	<div class="wow left">
+		<p style="transform: translateX(80px) translateY(130px);">
+			4&nbsp;&nbsp;&nbsp;데이터 마이닝<br><br>
+
+			업무의 성격과 데이터 구조에 알맞은 데이터마이닝 모델과 기법을<br> 적용하여
+			분석한 결과를 최종 사용자가 이해하기 쉬운 형식으로 표시한다.
+		</p>
+		
+		<img src="img/textbox_grapic.png" style="width:auto; height:420px; transform:translateY(-120px);">
+	</div>
+
+	<div>
+		<img src="img/process4_grapic.png" style="position: relative; width: 60%; height: auto;transform: translateX(300px)translateY(180px);">
+	</div>
+</section>
+---------------5
+	<section class="wrapper" style="margin-top:200px;">
+		<div class="wow right">
+			<p class="no-line-break" style="transform: translateX(900px) translatey(65px);">
+				5&nbsp;&nbsp;&nbsp;해석 및 평가 과정<br><br>
+			
+				데이터마이닝의 결과는 사용자가 해석가능한 용어 또는 의사결정에<br> 이용할 수 있는
+				지식으로 표현되어야 한다. 성공적인 데이터마이닝 테스트의<br> 결과는 의사결정 문제의
+				해결을 위해서 사용되며, 사후처리를 위해<br>다른사람이 시스템에 통합되거나
+				필요로 하는 사용자를 위해서 문서화 된다.</p>
+		</div>
+		<div>
+			<img src="img/process5_grapic.png" style="position: relative; width: 150%; height: auto;transform: translateX(-450px)translateY(100px);">
+		</div>
+
+		<div class="wow right">
+			<img src="img/textbox_grapic.png" style="width:auto; height:420px;">
+		</div>
+	</section>
+
+<div> <img src="img/frame10.png" style="width:1780px; height: auto;"></div>
+
+---------------
+<section id="c" class="wrapper" style="display: block; margin-top: 0px;">
+  <div>
+    <h4>데이터 마이닝의 기법과 활용</h4>
+  </div>
+
+  <div>
+    <h1>1 연관 규칙분석</h1>
+    <h3>일련의 사건이나 거래가 가진 순서 간 관계를 찾기 위한 규칙 기반 방법</h3>
+  </div>
+</section>
+
+<section class="wrapper" style="display:block;">
+	<div class="background_example1" style="margin-top:px;">
+	<p class="blinking-text" style="transform:translateX(52px) translateY(400px); margin-bottom: 20px; color:#73F8B8;">이 상품은 어떠세요?</p>
+	 <img src="img/exaple_description.png" style="width:35%; height: auto; transform: translateX(930px) translateY(-100px);">
+</div>
+</section>
+
+-----------------
+<section class="wrapper" style="display:block; margin-top:200px;">
+	<div>
+		<h1>2 결정 트리</h1>
+		<h3>회귀 방법을 사용하여 결정 세트를 기반으로 잠재적 결과를 분류 또는 예측한다.</h3>
+	</div>
+</section>
+
+<section class="wrapper" style="display:block;">
+	<div class="background_example2" style="margin-top">
+	<img src="img/exaple_description2.png" style="width:40%; height:auto;  transform: translateX(75px)translateY(550px);">
+	<p class="blinking-text" style="transform:translateX(1150px) translateY(-98px); margin-bottom: 20px; color:#73F8B8; font-size: 24px; font-weight: 600;">Yes</p>
+	<p class="blinking-text" style="transform:translateX(1320px) translateY(17px); margin-bottom: 20px; color:#73F8B8; font-size: 24px; font-weight: 600;">Yes</p>
+
+	</div>
+</section>
+-----------------
+<section style="margin-top: 300px; display: flex;">
+	<div class="background_lastgrapic" style="display:block;">
+		<div style="text-align:center; margin-top: 500px;"><h4>‘데이터 마이닝이 더 궁금하다면?’</h4></div>	
+		<div class="rotating-element"><img src="img/grapic_circle.png" style="width: 220px; height:220px; transform:translateY(30px) translateX(780px);"></div>
+		<div class="blinking-text" style="transform:translateX(855px) translateY(-100px); color:#73F8B8; font-size:35px; font-weight:700;">click!</div>
+
+	</div>
+</section>
+
+
+<section style="margin-bottom:10px; margin-top: 400px; text-align: center;">
+	<div style="text-align:center;" >	
+		<h5 style="font-weight: 400;">Copyright 2023. HeeJu Jeon all rights reserved.</h5>
+	</div>
+</section>
+
+---------------------------------------
+	<script src="wow.js"></script>
+	<script>new WOW().init();</script>
+</body>
+
+
+</html>
